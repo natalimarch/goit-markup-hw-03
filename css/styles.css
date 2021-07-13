@@ -141,6 +141,9 @@ ul {
 
 .hero {
   background-color: var(--footer-bg-color);
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -153,6 +156,11 @@ ul {
 }
 
 /* features */
+.feature {
+  display: flex;
+  margin-top: 94px;
+}
+
 .feature-title,
 .work-title,
 .team-title,
@@ -164,6 +172,9 @@ ul {
   color: var(--secondary-text-color);
 }
 
+.feature-title {
+}
+
 .feature-list .title {
   font-weight: 700;
   line-height: 1.1;
@@ -172,6 +183,17 @@ ul {
   color: var(--secondary-text-color);
 }
 
+.feature-list {
+  display: flex;
+}
+
+.feature-list li:not(:first-child) {
+  margin-left: 30px;
+}
+
+.feature-list p {
+  margin-top: 10px;
+}
 /* team */
 
 .team {
@@ -202,6 +224,7 @@ ul {
   letter-spacing: 0.06em;
   cursor: pointer;
   color: var(--main-bg-color);
+  align-items: center;
 }
 
 .button.primary {
