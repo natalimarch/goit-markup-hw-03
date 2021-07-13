@@ -34,6 +34,8 @@ h6,
 p,
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Logo */
@@ -50,13 +52,50 @@ ul {
   color: var(--accent-color);
 }
 
+/* header */
+
+.header {
+  height: 80px;
+}
+
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  text-align: center;
+}
+
+.header a {
+  display: inline-block;
+}
+
+.nav-mail {
+  margin-left: auto;
+}
+
+.nav-tel {
+  margin-left: 50px;
+}
+
 /* Site-nav */
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav.list {
+  display: flex;
+}
+
 .site-nav .link {
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--secondary-text-color);
+
+  margin-left: 50px;
 }
 
 .site-nav .link:hover,
