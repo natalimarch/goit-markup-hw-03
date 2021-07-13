@@ -54,27 +54,28 @@ ul {
 
 /* header */
 
-.header {
-  height: 80px;
-}
-
 .container {
-  display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
-  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.header a {
+.header-nav {
+  align-items: center;
+  display: flex;
+}
+
+.header-nav a {
   display: inline-block;
 }
 
-.nav-mail {
+.mail {
   margin-left: auto;
 }
 
-.nav-tel {
+.tel {
   margin-left: 50px;
 }
 
@@ -82,10 +83,16 @@ ul {
 
 .site-nav {
   display: flex;
+  align-items: center;
+  margin-right: auto;
 }
 
 .site-nav.list {
-  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.site-nav-contacts {
 }
 
 .site-nav .link {
@@ -95,7 +102,7 @@ ul {
   text-decoration: none;
   color: var(--secondary-text-color);
 
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 .site-nav .link:hover,
