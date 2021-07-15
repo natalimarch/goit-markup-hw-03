@@ -232,18 +232,20 @@ img {
 .work-list {
   display: flex;
   margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .work-list-item {
   flex-basis: calc((100% - 90px) / 3);
 
   margin-right: 30px;
+  margin-bottom: 30px;
   margin-top: 50px;
 }
 
 .work-section-add {
-  padding-top: 94px;
-  padding-bottom: 47px;
+  padding-top: 47px;
+  padding-bottom: 94px;
 }
 
 /* team */
@@ -255,6 +257,7 @@ img {
 .team-list {
   display: flex;
   margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .team-item {
@@ -266,6 +269,7 @@ img {
 
   text-align: center;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .team-content {
