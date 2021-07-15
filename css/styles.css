@@ -215,12 +215,14 @@ img {
 .feature-list {
   display: flex;
   margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .feature-list-item {
   flex-basis: calc((100% - 120px) / 4);
 
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .feature-list-text {
