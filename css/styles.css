@@ -192,7 +192,7 @@ img {
   color: var(--secondary-text-color);
 }
 
-.feature-list .title {
+.feature-list-title {
   font-weight: 700;
   line-height: 1.1;
   font-size: 14px;
@@ -205,11 +205,11 @@ img {
   margin-right: -30px;
 }
 
-.feature-list li {
+.feature-list-item {
   margin-right: 30px;
 }
 
-.feature-list p {
+.feature-list-text {
   margin-top: 10px;
 }
 
@@ -220,11 +220,11 @@ img {
   margin-right: -30px;
 }
 
-.work-list .item {
+.work-list-item {
   margin-right: 30px;
 }
 
-.work-list > .item {
+.work-list-item {
   margin-top: 50px;
 }
 
@@ -371,7 +371,7 @@ img {
   margin-bottom: 34px;
 }
 
-.filter-list li:not(:last-child) {
+.filter-list-item:not(:last-child) {
   margin-right: 8px;
 }
 
