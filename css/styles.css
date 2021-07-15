@@ -166,6 +166,12 @@ img {
   padding-bottom: 200px;
   text-align: center;
 }
+
+.hero-section {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -191,6 +197,11 @@ img {
   line-height: 1.2;
   text-align: center;
   color: var(--secondary-text-color);
+}
+
+.feature-section-add {
+  padding-top: 94px;
+  padding-bottom: 47px;
 }
 
 .feature-list-title {
@@ -228,6 +239,11 @@ img {
 
   margin-right: 30px;
   margin-top: 50px;
+}
+
+.work-section-add {
+  padding-top: 94px;
+  padding-bottom: 47px;
 }
 
 /* team */
@@ -348,10 +364,20 @@ img {
 
 .address .mail {
   margin-bottom: 9px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .address .tel {
   margin-bottom: 9px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address .tel:hover,
+.address .mail:hover,
+.address .tel:focus,
+.address .mail:focus {
+  color: var(--accent-color);
+  cursor: pointer;
 }
 
 .logo-footer {
@@ -371,7 +397,7 @@ img {
 .filter-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 56px;
 }
 
 .filter-list-item:not(:last-child) {
@@ -385,7 +411,6 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
-  margin-top: 20px;
 
   color: var(--secondary-text-color);
 }
