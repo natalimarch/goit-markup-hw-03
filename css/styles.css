@@ -14,6 +14,8 @@
   --footer-bg-color: #2f303a;
   --accent-color: #2196f3;
   --btn-primary-hover: #188ce8;
+  --portfolio-border: #eeeeee;
+  --header-border: #ececec;
 }
 
 body {
@@ -98,7 +100,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--header-border);
 }
 
 .header-nav {
@@ -404,7 +406,7 @@ img {
 .portfolio-content {
   padding: 20px 24px;
 
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--portfolio-border);
   border-top: none;
 }
 
